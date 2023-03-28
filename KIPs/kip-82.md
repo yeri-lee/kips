@@ -50,7 +50,7 @@ A new governance parameter is introduced to tune the new reward distribution alg
 |---------------------|--------|---------------------------------------------------------|---------------|
 | `reward.kip82ratio` | string | The relative ratio between proposer and staking rewards | "20/80"       |
 
-During integer arithmetics, minuscule remaining amounts may be emitted as by-products. The proposer gets the remainder from the staking share disribution, and KGF gets the the remainder from the distribution among proposer, stakers, KIR, KGF.
+During integer arithmetics, minuscule remaining amounts may be emitted as by-products. The proposer gets the remainder from the staking share distribution, and KGF gets the the remainder from the distribution among proposer, stakers, KIR, KGF.
 
 Below pseudocode illustrates the new reward distribution algorithm. Note: `//` is round down integer division.
 
